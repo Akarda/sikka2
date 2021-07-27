@@ -6,28 +6,13 @@ Package.describe({
 });
 
 Npm.depends({
-  "request": "2.53.0",
-  "cookies": "0.5.0"
+  "axios": "0.21.1",
+  "cookies": "0.8.0"
 });
 
 Package.onUse(function (api, where) {
   configure(api);
   api.export('Sikka', 'server')
-});
-
-Package.onTest(function (api, where) {
-  configure(api);
-  api.use('tinytest');
-  api.use('random');
-  api.use('practicalmeteor:sinon');
-
-  api.addFiles([
-    'test/server/utils.js',
-    'test/server/config.js',
-    'test/server/core.js',
-    'test/server/session_hooks.js',
-    'test/server/routes.js'
-  ], 'server');
 });
 
 function configure (api) {

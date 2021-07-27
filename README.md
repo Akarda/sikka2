@@ -1,5 +1,19 @@
 # forked Version for Meteor Version <2.3
 
+```
+888                     888                888
+888                     888                888
+888                     888                888
+88888b. 888  888.d8888b 888888 .d88b.  .d88888
+888 "88b888  88888K     888   d8P  Y8bd88" 888
+888  888888  888"Y8888b.888   88888888888  888
+888 d88PY88b 888     X88Y88b. Y8b.    Y88b 888
+88888P"  "Y88888 88888P' "Y888 "Y8888  "Y88888
+```
+busted Version without ui
+
+---
+
 # Sikka - A Firewall for Meteor Apps [![Build Status](https://travis-ci.org/meteorhacks/sikka.svg?branch=master)](https://travis-ci.org/meteorhacks/sikka)
 
 This is an application level firewall for Meteor. Sikka can detect malicious users of your app and block those users. 
