@@ -1,7 +1,7 @@
 Package.describe({
   "summary": 'Sikka - A Firewall for Meteor Apps',
   "name": "akarda:sikka2",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "git": "https://github.com/Akarda/sikka2",
 });
 
@@ -30,13 +30,13 @@ Package.onTest(function (api, where) {
   ], 'server');
 });
 
-function configure(api) {
-  api.versionsFrom("METEOR@0.9.2");
+function configure (api) {
+  api.versionsFrom('2.3.2')
   api.use([
     'mongo',
     'underscore',
-    'lamhieu:meteorx@2.0.1',
-    'meteorhacks:picker@1.0.2',
+    'akarda:meteorx@2.1.2',
+    'meteorhacks:picker@1.0.3',
     'chuangbo:cookie@1.1.0'
   ]);
 
@@ -54,5 +54,5 @@ function configure(api) {
 
   api.addFiles([
     'lib/server/captcha_page.html'
-  ], 'server', {isAsset: true});
+  ], 'server', { isAsset: true });
 }
