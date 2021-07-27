@@ -1,7 +1,7 @@
 Package.describe({
   "summary": 'Sikka - A Firewall for Meteor Apps',
   "name": "akarda:sikka2",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "git": "https://github.com/Akarda/sikka2",
 });
 
