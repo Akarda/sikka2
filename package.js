@@ -6,7 +6,6 @@ Package.describe({
 });
 
 Npm.depends({
-  "axios": "0.21.1",
   "cookies": "0.8.0"
 });
 
